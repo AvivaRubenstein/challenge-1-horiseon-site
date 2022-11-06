@@ -7,11 +7,11 @@ In this project, I refactored the original HTML and CSS code for the Horiseon we
 ## Usage
 
     ```md
-    ![Screenshot-1](Develop/assets/images/Screenshot-1.png)
+    ![Screenshot-1](/Develop/assets/images/Screenshot-1.png)
     ```
 
     ```md
-    ![Screenshot-2](Develop/assets/images/Screenshot-2.png)
+    ![Screenshot-2](/Develop/assets/images/Screenshot-2.png)
     ```
 
 ## Credits
