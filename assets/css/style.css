@@ -1,19 +1,20 @@
+/*  '*' is styling that applies to the whole application */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* background color of the entire body */
 body {
     background-color: #d9dcd6;
 }
-
+/* all 'a' elements will have white text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* all 'p' elements will have the same sized font */
 p {
     font-size: 16px;
 }
@@ -25,16 +26,16 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* this sets only the h1 element within the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* this specifically targets the part with the seo id within the headers h1 */
 header h1 #seo {
     color: #d9dcd6;
 }
-
+/* # is how we target an id in CSS */
 #NavigationBar {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,7 +47,7 @@ header h1 #seo {
 #NavigationBar ul {
     list-style-type: none;
 }
-
+/* styling each list item in this unordered list */
 #NavigationBar ul li {
     display: inline-block;
     margin-left: 25px;
@@ -74,7 +75,7 @@ header h1 #seo {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*  . allows us to target a class */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -109,6 +110,7 @@ header h1 #seo {
     margin: 10px auto;
     max-width: 150px;
 }
+/* target all h3 elements */
 h3 {
     margin-bottom: 10px;
     text-align: center;
